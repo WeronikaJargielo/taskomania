@@ -382,3 +382,119 @@ a {
         display: block;
     }
 }
+
+.opinions {
+    background-color: #F3F6E6;
+    padding: 46px 0;
+}
+
+@media (min-width: 1600px) {
+    .opinions {
+        padding: 150px 0;
+    }
+}
+
+@media (min-width: 700px) {
+    .content {
+        text-align: center; 
+    }
+}
+
+@media (min-width: 1600px) {
+    .content {
+        padding: 0 147px;
+    }
+}
+
+@media (min-width: 900px) {
+    .description {
+        max-width: 593px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1600px) {
+    .description {
+        max-width: 1199px;
+    }
+}
+
+.opinions-users {
+    padding-top: 43px;
+}
+
+@media (min-width: 900px) {
+    .opinions-users {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 1600px) {
+    .opinions-users {
+        padding-top: 120px;
+    }
+}
+
+.opinions-user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 900px) {
+    .opinions-user {
+        max-width: 368px;
+    }
+}
+
+.user-image {
+    max-width: 135px;
+    max-height: 135px;
+}
+
+@media (min-width: 1600px) {
+    .user-image {
+        max-width: 220px;
+        max-height: 220px;
+    }
+}
+
+.opinions-stars {
+    max-width: 166px;
+    max-height: 23px;
+}
+
+@media (min-width: 1600px) {
+    .opinions-stars {
+        max-width: 270px;
+        max-height: 38px;
+    }
+}
+
+.user-name {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 28px;
+    margin: 13px 0;
+}
+
+@media (min-width: 1600px) {
+    .user-name {
+        font-size: 28px;
+        line-height: 45px;
+        margin: 21px 0;
+    }
+}
+
+.opinions-text {
+    font-size: 14px;
+    margin: 36px 0 46px 0;
+}
+
+@media (min-width: 1600px) {
+    .opinions-text {
+        font-size: 20px;
+        margin: 57px 0 0 0;
+    }
+}
